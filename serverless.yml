@@ -18,6 +18,7 @@ provider:
   # These environment variables are made available to our functions
   # under process.env.
   environment:
+    stripeSecretKey: ${.env:STRIPE_SECRET_KEY}
     tableName: notes
 
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
@@ -93,4 +94,15 @@ functions:
           path: notes/{id}
           method: delete
           cors: true
-          authorizer: aws_iam                                       
+          authorizer: aws_iam   
+  billing:
+    # Defines an HTTP API endpoint that calls the main function in billing.js
+    # - path: url path is /billing
+    # - method: POST request
+    handler: billing.main
+    events:
+      - http:
+          path: billing
+          method: post
+          cors: true
+          authorizer: aws_iam                                              
