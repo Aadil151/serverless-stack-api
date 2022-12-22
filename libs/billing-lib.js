@@ -1,6 +1,6 @@
 export function calculateCost(storage) {
     const rate = storage <= 10
-      ? 3
+      ? 4
       : storage <= 100
         ? 2
         : 1;
