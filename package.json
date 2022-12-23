@@ -15,7 +15,7 @@
   "devDependencies": {
     "aws-sdk": "^2.1280.0",
     "jest": "^26.6.3",
-    "serverless-bundle": "4.3.1",
+    "serverless-bundle": "^4.3.1",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.3.3"
   },
@@ -23,7 +23,11 @@
     "fsevents": "^2.1.2"
   },
   "dependencies": {
+    "serverless": "^3.26.0",
     "stripe": "^11.5.0",
     "uuid": "^7.0.3"
+  },
+  "resolutions": {
+    "crc32-stream": "^4.0.1"
   }
 }
