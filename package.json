@@ -23,6 +23,8 @@
     "fsevents": "^2.1.2"
   },
   "dependencies": {
+    "@serverless-stack/cli": "0.4.5",
+    "@serverless-stack/resources": "0.4.5",
     "serverless": "^3.26.0",
     "stripe": "^11.5.0",
     "uuid": "^7.0.3"
