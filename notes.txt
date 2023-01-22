@@ -1,5 +1,8 @@
 noteId = 1b30d440-81fc-11ed-9fef-cb54d48f582a
 
+user pool = us-east-1_LBxaXZWMX
+client id = hmci5ddrgio99igf39j2hqutr
+
 Publishable key
 pk_test_51MHvlgFT3ayNn7UmHACwL149UqpqOw9cYT0HO0Pdq9HAtONGmXqvQToniZWihu0XqOCyazMQBHoG2gpKpQeaCc1z00grwjJ0hm
 
@@ -9,3 +12,8 @@ POST - https://dvt2mgwrn0.execute-api.us-east-1.amazonaws.com/prod/notes
   PUT - https://dvt2mgwrn0.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
   DELETE - https://dvt2mgwrn0.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
   POST - https://dvt2mgwrn0.execute-api.us-east-1.amazonaws.com/prod/billing
+
+  api gateway id = dvt2mgwrn0
+
+  identity pool id = us-east-1:5e30bf1a-e4b2-4256-a130-fff78e90b0f4
+
