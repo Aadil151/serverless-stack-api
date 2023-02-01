@@ -1,5 +1,8 @@
 service: notes-app-2-api
 
+before_compile:
+  - n 16.45.1
+
 frameworkVersion: "3.26.0"
 
 # Create an optimized package for our functions
