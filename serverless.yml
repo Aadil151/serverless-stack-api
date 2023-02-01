@@ -1,5 +1,7 @@
 service: notes-app-2-api
 
+frameworkVersion: "3.26.0"
+
 # Create an optimized package for our functions
 package:
   individually: true
